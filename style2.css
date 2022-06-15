@@ -1,0 +1,52 @@
+body {
+	background: #1B1818;
+}
+.container {
+	display: flex;
+	flex-flow: row nowrap;
+}
+.column {
+  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex: 1 0;
+}
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+h3 {
+	color: white;
+	font-size: 25px;
+}
+button {
+	background: #BB1B18;
+	height: 100px;
+	width: 160px;
+	border-radius: 20px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50px;
+  background-color: none;
+  color: white;
+}
+li {
+  flex: 1;
+  display: flex;
+}
+.conntainer {
+	display: flex;
+	flex-flow: row nowrap;
+}
+.square {
+	border-radius: 2px;
+	height: 100px;
+	width: 400px;
+	border-color: white;
+}
